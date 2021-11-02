@@ -8,4 +8,5 @@ kubectl apply -f .
 port=$(kubectl get svc nginx-svc -ojson | jq '.spec.ports[].nodePort')
 ip=$(minikube ip)
 hostname=$(echo $ip:$port)
+curl -s $hostname
 ```

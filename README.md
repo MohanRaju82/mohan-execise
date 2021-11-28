@@ -1,7 +1,7 @@
 # Steps to setup
 - Start minikube cluster
 - clone this repository to a folder
-- run the following commads :
+- run the following commads : 
 ```
 cd mohan-exercise
 kubectl apply -f .
